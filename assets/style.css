@@ -1,0 +1,191 @@
+/*COLORES
+rosado: #ed9a9d;
+beige: #f0e7ae;
+verde: #8ec641;
+gris: #3b3b3b;
+gris texto: #626262;
+*/
+
+div{
+	margin: 0 auto !important;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	padding: 0;
+}
+.arreglo-foto{
+	width: 100%;
+}
+/*parte 1*/
+#hambur{
+	float: right;
+	font-size: 30px;
+	color: white;
+	cursor:pointer
+}
+#logo-inicio{
+	float: left;
+}
+.fondo-uno{
+	text-align: center;
+	background-image: url("img/fondo-bienvenida.jpg");
+	height: 100vh;
+	background-size: cover;
+}
+.logo-uno{
+	display: block;
+	padding: 70px;
+    margin: auto;
+}
+.angosto{
+	padding: 85px 150px;
+    text-align: center;
+}
+.tea{
+	width: 650px;
+    margin-top: 100px;
+}
+/*parte 2*/
+
+/*parte 3*/
+.nuestra-pasion{
+	background-image: url("img/fondo-about.jpg");
+	height: 100vh;
+	background-size: cover;
+}
+/*parte 4*/
+.texto{
+	text-align: center;
+	padding: 55px 0;
+}
+h3{
+	color: #ed9a9d;
+	font-weight: bold;
+}
+/*parte 5*/
+.pad{
+	padding: 0;
+	margin: 0;
+}
+.cuadro-uno{
+	background-image: url(img/min-video-1-2.jpg);
+	background-size: cover;
+	background-size: 100%;
+    height: 100vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+.cuadro-dos{
+	background-image: url(img/min-video-3.jpg);
+	background-size: cover;
+	background-size: 100%;
+    height: 50vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:0;
+    padding: 75px;
+}
+.cuadro-tres{
+	background-image: url(img/min-video-5.jpg);
+	background-size: cover;
+	background-size: 100%;
+    height: 50vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin:0;
+    padding: 75px;
+}
+.cuadro-cuatro{
+	background-image: url(img/min-video-6.jpg);
+	background-size: cover;
+	background-size: 100%;
+    height: 50vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding-right: 230px;
+    padding-left: 230px;
+}
+
+/*parte 6*/
+.texto-grande{
+	color: white;
+	font-size: 100px;
+}
+
+.preguntas-te{
+	background-image: url("img/disfruta.jpg");
+	height: 100vh;
+	background-size: cover;
+}
+/*parte 7*/
+.fondo-beige{
+	background-color: #f0e7ae;
+	padding: 100px;
+}
+/*parte 8*/
+.fondo-verde{
+	background-color: #8ec641;
+	padding: 100px;
+}
+/*parte 9*/
+.fondo-rosa{
+	background-color: #ed9a9d;
+	padding: 100px;
+}
+/*parte 10*/
+.los-campos{
+	background-image: url("img/parallax-4.jpg");
+	height: 100vh;
+	background-size: cover;
+}
+/*parte 11*/
+#control{
+	font-size:70px;
+}
+
+/*parte 12*/
+.amamos{
+	font-weight: 800;
+    font-size: 22px;
+}
+hr{
+	float: left;
+    width: 50px;
+    border-top: 4px solid #000;
+}
+.caja{
+    width: 60%;
+}
+/*parte 13 footer*/
+footer{
+	padding: 20px;
+	background-color:  #3b3b3b;
+	color: #626262;
+}
+.ultimo{
+	margin-top: 25px;
+}
+
