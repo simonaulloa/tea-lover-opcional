@@ -1,4 +1,4 @@
-/*COLORES
+/*COLORES que serian como las variables
 rosado: #ed9a9d;
 beige: #f0e7ae;
 verde: #8ec641;
@@ -6,10 +6,11 @@ gris: #3b3b3b;
 gris texto: #626262;
 */
 /*mas de una parte*/
-div{
-	margin: 0 auto !important;
+div{ /*receteo universal pequeño*/
+	margin: 0 !important;
 	padding: 0;
 	font-family: 'Lato', sans-serif;
+	box-sizing: border-box; /*borde del contenedor*/
 }
 .container{
 	width: 100%;
@@ -19,11 +20,15 @@ div{
 	width: 100%;
 }
 .texto-grande{
-	margin-top: 100px;
+	margin-top: 200px;
 	color: white;
 	font-size: 100px;
 }
-
+.texto-grande-abajo{
+	margin-top: -70px;
+	color: white;
+	font-size: 100px;
+}
 /*parte 1*/
 #hambur{
 	margin-top: 100px;
@@ -32,7 +37,7 @@ div{
 	float: right;
 	font-size: 30px;
 	color: white;
-	cursor:pointer
+	cursor:pointer;
 }
 #logo-inicio{
 	float: left;
@@ -49,7 +54,6 @@ div{
     margin: auto;
 }
 .angosto{
-	padding: 85px 150px;
     text-align: center;
 }
 .tea{
