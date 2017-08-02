@@ -170,14 +170,25 @@ h3{
 .amamos{
 	font-weight: 800;
     font-size: 22px;
+    padding-left: 0;
+    padding-top: 90px;
+}
+.amamos-texto{
+	margin-top: 35px;
+}
+.logo12{
+	padding-left: 50px;
 }
 hr{
+	 margin: 0;
 	float: left;
     width: 50px;
     border-top: 4px solid #000;
 }
 .caja{
     width: 60%;
+    margin-left: 100px;
+    margin: 0 20%;
 }
 /*parte 13 footer*/
 footer{
