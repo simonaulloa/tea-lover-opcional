@@ -9,6 +9,7 @@ gris texto: #626262;
 div{
 	margin: 0 auto !important;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 .container{
 	width: 100%;
@@ -19,6 +20,9 @@ div{
 }
 /*parte 1*/
 #hambur{
+	margin-top: 100px;
+	z-index: 1; /* para ver la posicion ponerlo arriba o abajo de algun elemento*/
+	position: fixed;
 	float: right;
 	font-size: 30px;
 	color: white;
@@ -53,6 +57,9 @@ div{
 	background-image: url("img/fondo-about.jpg");
 	height: 100vh;
 	background-size: cover;
+}
+.texto-pequeno{
+	color: white;
 }
 /*parte 4*/
 .texto{
@@ -131,6 +138,7 @@ h3{
 
 /*parte 6*/
 .texto-grande{
+	margin-top: 100px;
 	color: white;
 	font-size: 100px;
 }
